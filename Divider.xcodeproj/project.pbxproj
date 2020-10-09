@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B213804F252151AD00652661 /* CostDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213804E252151AD00652661 /* CostDivider.swift */; };
+		B241FE4E251D4E450002BE4E /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B241FE4D251D4E450002BE4E /* Person.swift */; };
+		B241FE50251D539C0002BE4E /* AddPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B241FE4F251D539C0002BE4E /* AddPersonViewController.swift */; };
+		B2887F36252A8BA900ECED0D /* RemovePersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2887F35252A8BA900ECED0D /* RemovePersonViewController.swift */; };
 		B2A8DEF525101BF2005E1F26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A8DEF425101BF2005E1F26 /* AppDelegate.swift */; };
 		B2A8DEF725101BF2005E1F26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A8DEF625101BF2005E1F26 /* ViewController.swift */; };
 		B2A8DEF925101BF5005E1F26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A8DEF825101BF5005E1F26 /* Assets.xcassets */; };
 		B2A8DEFC25101BF5005E1F26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2A8DEFA25101BF5005E1F26 /* Main.storyboard */; };
+		B2A8DF0525101C14005E1F26 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A8DF0425101C14005E1F26 /* Item.swift */; };
+		B2A8DF0725113B22005E1F26 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A8DF0625113B22005E1F26 /* TableViewController.swift */; };
+		B2A8DF09251141C8005E1F26 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A8DF08251141C8005E1F26 /* WindowController.swift */; };
+		B2A8DF0B25114316005E1F26 /* EditItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A8DF0A25114316005E1F26 /* EditItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B213804E252151AD00652661 /* CostDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostDivider.swift; sourceTree = "<group>"; };
+		B241FE4D251D4E450002BE4E /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		B241FE4F251D539C0002BE4E /* AddPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPersonViewController.swift; sourceTree = "<group>"; };
+		B2887F35252A8BA900ECED0D /* RemovePersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemovePersonViewController.swift; sourceTree = "<group>"; };
 		B2A8DEF125101BF2005E1F26 /* Divider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Divider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2A8DEF425101BF2005E1F26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2A8DEF625101BF2005E1F26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -21,6 +33,10 @@
 		B2A8DEFB25101BF5005E1F26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2A8DEFD25101BF5005E1F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2A8DEFE25101BF5005E1F26 /* Divider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Divider.entitlements; sourceTree = "<group>"; };
+		B2A8DF0425101C14005E1F26 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		B2A8DF0625113B22005E1F26 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B2A8DF08251141C8005E1F26 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		B2A8DF0A25114316005E1F26 /* EditItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +75,14 @@
 				B2A8DEFA25101BF5005E1F26 /* Main.storyboard */,
 				B2A8DEFD25101BF5005E1F26 /* Info.plist */,
 				B2A8DEFE25101BF5005E1F26 /* Divider.entitlements */,
+				B2A8DF0425101C14005E1F26 /* Item.swift */,
+				B2A8DF0625113B22005E1F26 /* TableViewController.swift */,
+				B2A8DF08251141C8005E1F26 /* WindowController.swift */,
+				B2A8DF0A25114316005E1F26 /* EditItemViewController.swift */,
+				B241FE4D251D4E450002BE4E /* Person.swift */,
+				B241FE4F251D539C0002BE4E /* AddPersonViewController.swift */,
+				B213804E252151AD00652661 /* CostDivider.swift */,
+				B2887F35252A8BA900ECED0D /* RemovePersonViewController.swift */,
 			);
 			path = Divider;
 			sourceTree = "<group>";
@@ -133,8 +157,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2A8DF0B25114316005E1F26 /* EditItemViewController.swift in Sources */,
+				B2A8DF0525101C14005E1F26 /* Item.swift in Sources */,
+				B2A8DF09251141C8005E1F26 /* WindowController.swift in Sources */,
 				B2A8DEF725101BF2005E1F26 /* ViewController.swift in Sources */,
+				B241FE4E251D4E450002BE4E /* Person.swift in Sources */,
+				B241FE50251D539C0002BE4E /* AddPersonViewController.swift in Sources */,
+				B2887F36252A8BA900ECED0D /* RemovePersonViewController.swift in Sources */,
+				B213804F252151AD00652661 /* CostDivider.swift in Sources */,
 				B2A8DEF525101BF2005E1F26 /* AppDelegate.swift in Sources */,
+				B2A8DF0725113B22005E1F26 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
