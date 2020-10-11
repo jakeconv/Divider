@@ -12,7 +12,7 @@ class RemovePersonViewController: NSViewController {
 
     var people = [Person]()
     var personToRemove: Person?
-    
+
     @IBOutlet var peopleDropDown: NSPopUpButton!
     
     override func viewDidLoad() {
